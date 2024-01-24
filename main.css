@@ -1,3 +1,53 @@
 body {
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    max-width: 900px;
+    margin: auto;
+    
 }
+
+h1 {
+    padding-left: 30px;
+}
+
+.emojis {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    gap: 1em;
+   
+}
+
+.emoji {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    justify-content: space-around;
+}
+
+a { 
+    text-decoration: none;;
+    color: white; 
+    background-color: purple;
+    padding: 15px;
+    border-radius: 10px;
+    align-items: center;
+}
+
+h2 {
+    border-bottom: 1px solid grey;
+    padding-bottom: -50px;
+}
+p h2 {
+    padding: auto;
+}
+.icon {
+    order: -1;
+    align-self: center;
+    font-size: 60px;
+}
+
+
+
+
